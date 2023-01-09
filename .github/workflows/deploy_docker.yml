@@ -21,7 +21,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    # gcloud CLI 설정__
+    # gcloud CLI 설정
     - uses: google-github-actions/setup-gcloud@main
       with:
         version: '290.0.1'
